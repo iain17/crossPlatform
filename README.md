@@ -1,7 +1,7 @@
 # CrossPlatform
 > This repo is a quick proof of concept where code written in C++ is shared between a native iOS and Android application. Written in Swift and Java.
 
-[![License][license-image]][LICENSE.md]
+[![License][license-image]][LICENSE]
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
 The app launches and will try and call both a simple hello function that returns a string and a function that returns a struct. Note how the C++ code doesn't have to be adjusted in order for it to work in Java or Swift.
