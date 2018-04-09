@@ -16,6 +16,7 @@ extern "C" {
     const char* hello();
     DrivingLicense parseDrivingLicense();
     bool testEncode(void *buffer, size_t buffer_size);
+    bool testDecode(Rectangle_t* rectangle, void *buffer, size_t buffer_size);
 
 #ifdef __cplusplus
 }
