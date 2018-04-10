@@ -32,6 +32,9 @@ class ViewController: UIViewController {
         let abc = rect.move()
         print(success)
         print(abc)
+        
+        buffer.deallocate()
+        rect.deallocate()
     }
     
     override func didReceiveMemoryWarning() {

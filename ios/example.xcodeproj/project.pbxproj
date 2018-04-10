@@ -34,6 +34,7 @@
 		27BA01CF207BF0C600B6E3FA /* xer_decoder.c in Sources */ = {isa = PBXBuildFile; fileRef = 27BA01B4207BF0C600B6E3FA /* xer_decoder.c */; };
 		27BA01D1207BF0C600B6E3FA /* Rectangle.c in Sources */ = {isa = PBXBuildFile; fileRef = 27BA01B7207BF0C600B6E3FA /* Rectangle.c */; };
 		27BA01D2207BF0C600B6E3FA /* ber_tlv_length.c in Sources */ = {isa = PBXBuildFile; fileRef = 27BA01B9207BF0C600B6E3FA /* ber_tlv_length.c */; };
+		27BA01D4207BFF3C00B6E3FA /* ISO-18013-5.asn1 in Resources */ = {isa = PBXBuildFile; fileRef = 27BA01D3207BFF3C00B6E3FA /* ISO-18013-5.asn1 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -94,6 +95,7 @@
 		27BA01B9207BF0C600B6E3FA /* ber_tlv_length.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ber_tlv_length.c; path = ../../../../shared/asn/ber_tlv_length.c; sourceTree = "<group>"; };
 		27BA01BA207BF0C600B6E3FA /* xer_encoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = xer_encoder.h; path = ../../../../shared/asn/xer_encoder.h; sourceTree = "<group>"; };
 		27BA01BB207BF0C600B6E3FA /* ber_tlv_tag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ber_tlv_tag.h; path = ../../../../shared/asn/ber_tlv_tag.h; sourceTree = "<group>"; };
+		27BA01D3207BFF3C00B6E3FA /* ISO-18013-5.asn1 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "ISO-18013-5.asn1"; path = "../../../shared/ISO-18013-5.asn1"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +147,7 @@
 				27BA018B207BF0BB00B6E3FA /* asn */,
 				27BA0181207BDEC400B6E3FA /* main.cpp */,
 				27BA0182207BDEC400B6E3FA /* main.h */,
+				27BA01D3207BFF3C00B6E3FA /* ISO-18013-5.asn1 */,
 			);
 			path = shared;
 			sourceTree = "<group>";
@@ -269,6 +272,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27BA01D4207BFF3C00B6E3FA /* ISO-18013-5.asn1 in Resources */,
 				27BA0174207BDE3C00B6E3FA /* LaunchScreen.storyboard in Resources */,
 				27BA0171207BDE3C00B6E3FA /* Assets.xcassets in Resources */,
 				27BA016F207BDE3B00B6E3FA /* Main.storyboard in Resources */,
