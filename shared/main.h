@@ -7,7 +7,8 @@ typedef struct DrivingLicense
 #include <stdio.h>
 #include <sys/types.h>
 #include <stdbool.h>
-#include "asn/Rectangle.h"
+//#include "asn/Rectangle.h"
+#include <Rectangle.h>
 
 #ifdef __cplusplus
 extern "C" {
@@ -15,7 +16,7 @@ extern "C" {
     
     const char* hello();
     DrivingLicense parseDrivingLicense();
-    bool testEncode(void *buffer, size_t buffer_size);
+    size_t testEncode(void *buffer, size_t buffer_size);
     bool testDecode(Rectangle_t* rectangle, void *buffer, size_t buffer_size);
 
 #ifdef __cplusplus

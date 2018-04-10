@@ -1,6 +1,6 @@
-#include "asn_application.h"
-#include "asn_internal.h"
-#include "per_decoder.h"
+#include <asn_application.h>
+#include <asn_internal.h>
+#include <per_decoder.h>
 
 /*
  * Decode a "Production of a complete encoding", X.691#10.1.
@@ -67,7 +67,7 @@ uper_decode(asn_codec_ctx_t *opt_codec_ctx, asn_TYPE_descriptor_t *td, void **sp
 	memset(&pd, 0, sizeof(pd));
 	pd.buffer = (const uint8_t *)buffer;
 	pd.nboff = skip_bits;
-	pd.nbits = 8 * size - unused_bits; /* 8 is CHAR_BIT from <limits.h" */
+	pd.nbits = 8 * size - unused_bits; /* 8 is CHAR_BIT from <limits.h> */
 	if(pd.nboff > pd.nbits)
 		ASN__DECODE_FAILED;
 

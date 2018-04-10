@@ -12,7 +12,7 @@
 #include "asn_application.h"	/* Application-visible API */
 
 #ifndef	__NO_ASSERT_H__		/* Include assert.h only for internal use. */
-#include "assert.h"		/* for assert() macro */
+#include <assert.h>		/* for assert() macro */
 #endif
 
 #ifdef	__cplusplus

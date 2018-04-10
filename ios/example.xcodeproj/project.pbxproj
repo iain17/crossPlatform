@@ -7,37 +7,61 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2790BBE3207CA82700B5B60A /* constr_TYPE.c in Sources */ = {isa = PBXBuildFile; fileRef = 2790BBCB207CA82600B5B60A /* constr_TYPE.c */; };
+		2790BBE4207CA82700B5B60A /* xer_support.c in Sources */ = {isa = PBXBuildFile; fileRef = 2790BBCC207CA82600B5B60A /* xer_support.c */; };
+		2790BBE5207CA82700B5B60A /* per_opentype.c in Sources */ = {isa = PBXBuildFile; fileRef = 2790BBCD207CA82600B5B60A /* per_opentype.c */; };
+		2790BBE6207CA82700B5B60A /* constr_SEQUENCE.c in Sources */ = {isa = PBXBuildFile; fileRef = 2790BBCE207CA82600B5B60A /* constr_SEQUENCE.c */; };
+		2790BBE7207CA82700B5B60A /* ber_tlv_tag.c in Sources */ = {isa = PBXBuildFile; fileRef = 2790BBCF207CA82600B5B60A /* ber_tlv_tag.c */; };
+		2790BBE8207CA82700B5B60A /* asn_codecs_prim.c in Sources */ = {isa = PBXBuildFile; fileRef = 2790BBD0207CA82600B5B60A /* asn_codecs_prim.c */; };
+		2790BBE9207CA82700B5B60A /* constraints.c in Sources */ = {isa = PBXBuildFile; fileRef = 2790BBD2207CA82600B5B60A /* constraints.c */; };
+		2790BBEA207CA82700B5B60A /* der_encoder.c in Sources */ = {isa = PBXBuildFile; fileRef = 2790BBD3207CA82600B5B60A /* der_encoder.c */; };
+		2790BBEB207CA82700B5B60A /* INTEGER.c in Sources */ = {isa = PBXBuildFile; fileRef = 2790BBD4207CA82600B5B60A /* INTEGER.c */; };
+		2790BBEC207CA82700B5B60A /* NativeInteger.c in Sources */ = {isa = PBXBuildFile; fileRef = 2790BBD5207CA82600B5B60A /* NativeInteger.c */; };
+		2790BBED207CA82700B5B60A /* per_decoder.c in Sources */ = {isa = PBXBuildFile; fileRef = 2790BBD6207CA82600B5B60A /* per_decoder.c */; };
+		2790BBEE207CA82700B5B60A /* per_support.c in Sources */ = {isa = PBXBuildFile; fileRef = 2790BBD8207CA82600B5B60A /* per_support.c */; };
+		2790BBEF207CA82700B5B60A /* ber_decoder.c in Sources */ = {isa = PBXBuildFile; fileRef = 2790BBD9207CA82600B5B60A /* ber_decoder.c */; };
+		2790BBF0207CA82700B5B60A /* OCTET_STRING.c in Sources */ = {isa = PBXBuildFile; fileRef = 2790BBDA207CA82600B5B60A /* OCTET_STRING.c */; };
+		2790BBF1207CA82700B5B60A /* xer_decoder.c in Sources */ = {isa = PBXBuildFile; fileRef = 2790BBDB207CA82600B5B60A /* xer_decoder.c */; };
+		2790BBF2207CA82700B5B60A /* per_encoder.c in Sources */ = {isa = PBXBuildFile; fileRef = 2790BBDC207CA82700B5B60A /* per_encoder.c */; };
+		2790BBF3207CA82700B5B60A /* BIT_STRING.c in Sources */ = {isa = PBXBuildFile; fileRef = 2790BBDE207CA82700B5B60A /* BIT_STRING.c */; };
+		2790BBF4207CA82700B5B60A /* Rectangle.c in Sources */ = {isa = PBXBuildFile; fileRef = 2790BBDF207CA82700B5B60A /* Rectangle.c */; };
+		2790BBF5207CA82700B5B60A /* xer_encoder.c in Sources */ = {isa = PBXBuildFile; fileRef = 2790BBE0207CA82700B5B60A /* xer_encoder.c */; };
+		2790BBF6207CA82700B5B60A /* ber_tlv_length.c in Sources */ = {isa = PBXBuildFile; fileRef = 2790BBE1207CA82700B5B60A /* ber_tlv_length.c */; };
+		2790BBF7207CA82700B5B60A /* NativeEnumerated.c in Sources */ = {isa = PBXBuildFile; fileRef = 2790BBE2207CA82700B5B60A /* NativeEnumerated.c */; };
 		27BA016A207BDE3B00B6E3FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BA0169207BDE3B00B6E3FA /* AppDelegate.swift */; };
 		27BA016C207BDE3B00B6E3FA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BA016B207BDE3B00B6E3FA /* ViewController.swift */; };
 		27BA016F207BDE3B00B6E3FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27BA016D207BDE3B00B6E3FA /* Main.storyboard */; };
 		27BA0171207BDE3C00B6E3FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27BA0170207BDE3C00B6E3FA /* Assets.xcassets */; };
 		27BA0174207BDE3C00B6E3FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27BA0172207BDE3C00B6E3FA /* LaunchScreen.storyboard */; };
 		27BA0183207BDEC400B6E3FA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 27BA0181207BDEC400B6E3FA /* main.cpp */; };
-		27BA01BC207BF0C600B6E3FA /* per_opentype.c in Sources */ = {isa = PBXBuildFile; fileRef = 27BA018D207BF0C600B6E3FA /* per_opentype.c */; };
-		27BA01BD207BF0C600B6E3FA /* INTEGER.c in Sources */ = {isa = PBXBuildFile; fileRef = 27BA0193207BF0C600B6E3FA /* INTEGER.c */; };
-		27BA01BE207BF0C600B6E3FA /* OCTET_STRING.c in Sources */ = {isa = PBXBuildFile; fileRef = 27BA0195207BF0C600B6E3FA /* OCTET_STRING.c */; };
-		27BA01BF207BF0C600B6E3FA /* BIT_STRING.c in Sources */ = {isa = PBXBuildFile; fileRef = 27BA0199207BF0C600B6E3FA /* BIT_STRING.c */; };
-		27BA01C0207BF0C600B6E3FA /* per_encoder.c in Sources */ = {isa = PBXBuildFile; fileRef = 27BA019B207BF0C600B6E3FA /* per_encoder.c */; };
-		27BA01C1207BF0C600B6E3FA /* xer_encoder.c in Sources */ = {isa = PBXBuildFile; fileRef = 27BA019C207BF0C600B6E3FA /* xer_encoder.c */; };
-		27BA01C2207BF0C600B6E3FA /* NativeEnumerated.c in Sources */ = {isa = PBXBuildFile; fileRef = 27BA019E207BF0C600B6E3FA /* NativeEnumerated.c */; };
-		27BA01C3207BF0C600B6E3FA /* constr_TYPE.c in Sources */ = {isa = PBXBuildFile; fileRef = 27BA01A1207BF0C600B6E3FA /* constr_TYPE.c */; };
-		27BA01C4207BF0C600B6E3FA /* xer_support.c in Sources */ = {isa = PBXBuildFile; fileRef = 27BA01A2207BF0C600B6E3FA /* xer_support.c */; };
-		27BA01C5207BF0C600B6E3FA /* constr_SEQUENCE.c in Sources */ = {isa = PBXBuildFile; fileRef = 27BA01A5207BF0C600B6E3FA /* constr_SEQUENCE.c */; };
-		27BA01C6207BF0C600B6E3FA /* asn_codecs_prim.c in Sources */ = {isa = PBXBuildFile; fileRef = 27BA01A7207BF0C600B6E3FA /* asn_codecs_prim.c */; };
-		27BA01C7207BF0C600B6E3FA /* ber_tlv_tag.c in Sources */ = {isa = PBXBuildFile; fileRef = 27BA01A8207BF0C600B6E3FA /* ber_tlv_tag.c */; };
-		27BA01C8207BF0C600B6E3FA /* constraints.c in Sources */ = {isa = PBXBuildFile; fileRef = 27BA01A9207BF0C600B6E3FA /* constraints.c */; };
-		27BA01C9207BF0C600B6E3FA /* der_encoder.c in Sources */ = {isa = PBXBuildFile; fileRef = 27BA01AA207BF0C600B6E3FA /* der_encoder.c */; };
-		27BA01CA207BF0C600B6E3FA /* NativeInteger.c in Sources */ = {isa = PBXBuildFile; fileRef = 27BA01AB207BF0C600B6E3FA /* NativeInteger.c */; };
-		27BA01CB207BF0C600B6E3FA /* per_decoder.c in Sources */ = {isa = PBXBuildFile; fileRef = 27BA01AE207BF0C600B6E3FA /* per_decoder.c */; };
-		27BA01CC207BF0C600B6E3FA /* per_support.c in Sources */ = {isa = PBXBuildFile; fileRef = 27BA01B0207BF0C600B6E3FA /* per_support.c */; };
-		27BA01CD207BF0C600B6E3FA /* ber_decoder.c in Sources */ = {isa = PBXBuildFile; fileRef = 27BA01B1207BF0C600B6E3FA /* ber_decoder.c */; };
-		27BA01CF207BF0C600B6E3FA /* xer_decoder.c in Sources */ = {isa = PBXBuildFile; fileRef = 27BA01B4207BF0C600B6E3FA /* xer_decoder.c */; };
-		27BA01D1207BF0C600B6E3FA /* Rectangle.c in Sources */ = {isa = PBXBuildFile; fileRef = 27BA01B7207BF0C600B6E3FA /* Rectangle.c */; };
-		27BA01D2207BF0C600B6E3FA /* ber_tlv_length.c in Sources */ = {isa = PBXBuildFile; fileRef = 27BA01B9207BF0C600B6E3FA /* ber_tlv_length.c */; };
 		27BA01D4207BFF3C00B6E3FA /* ISO-18013-5.asn1 in Resources */ = {isa = PBXBuildFile; fileRef = 27BA01D3207BFF3C00B6E3FA /* ISO-18013-5.asn1 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2790BBCB207CA82600B5B60A /* constr_TYPE.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = constr_TYPE.c; path = ../../../../shared/asn/constr_TYPE.c; sourceTree = "<group>"; };
+		2790BBCC207CA82600B5B60A /* xer_support.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = xer_support.c; path = ../../../../shared/asn/xer_support.c; sourceTree = "<group>"; };
+		2790BBCD207CA82600B5B60A /* per_opentype.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = per_opentype.c; path = ../../../../shared/asn/per_opentype.c; sourceTree = "<group>"; };
+		2790BBCE207CA82600B5B60A /* constr_SEQUENCE.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = constr_SEQUENCE.c; path = ../../../../shared/asn/constr_SEQUENCE.c; sourceTree = "<group>"; };
+		2790BBCF207CA82600B5B60A /* ber_tlv_tag.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ber_tlv_tag.c; path = ../../../../shared/asn/ber_tlv_tag.c; sourceTree = "<group>"; };
+		2790BBD0207CA82600B5B60A /* asn_codecs_prim.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = asn_codecs_prim.c; path = ../../../../shared/asn/asn_codecs_prim.c; sourceTree = "<group>"; };
+		2790BBD1207CA82600B5B60A /* asn_codecs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = asn_codecs.h; path = ../../../../shared/asn/asn_codecs.h; sourceTree = "<group>"; };
+		2790BBD2207CA82600B5B60A /* constraints.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = constraints.c; path = ../../../../shared/asn/constraints.c; sourceTree = "<group>"; };
+		2790BBD3207CA82600B5B60A /* der_encoder.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = der_encoder.c; path = ../../../../shared/asn/der_encoder.c; sourceTree = "<group>"; };
+		2790BBD4207CA82600B5B60A /* INTEGER.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = INTEGER.c; path = ../../../../shared/asn/INTEGER.c; sourceTree = "<group>"; };
+		2790BBD5207CA82600B5B60A /* NativeInteger.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = NativeInteger.c; path = ../../../../shared/asn/NativeInteger.c; sourceTree = "<group>"; };
+		2790BBD6207CA82600B5B60A /* per_decoder.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = per_decoder.c; path = ../../../../shared/asn/per_decoder.c; sourceTree = "<group>"; };
+		2790BBD7207CA82600B5B60A /* per_encoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = per_encoder.h; path = ../../../../shared/asn/per_encoder.h; sourceTree = "<group>"; };
+		2790BBD8207CA82600B5B60A /* per_support.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = per_support.c; path = ../../../../shared/asn/per_support.c; sourceTree = "<group>"; };
+		2790BBD9207CA82600B5B60A /* ber_decoder.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ber_decoder.c; path = ../../../../shared/asn/ber_decoder.c; sourceTree = "<group>"; };
+		2790BBDA207CA82600B5B60A /* OCTET_STRING.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = OCTET_STRING.c; path = ../../../../shared/asn/OCTET_STRING.c; sourceTree = "<group>"; };
+		2790BBDB207CA82600B5B60A /* xer_decoder.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = xer_decoder.c; path = ../../../../shared/asn/xer_decoder.c; sourceTree = "<group>"; };
+		2790BBDC207CA82700B5B60A /* per_encoder.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = per_encoder.c; path = ../../../../shared/asn/per_encoder.c; sourceTree = "<group>"; };
+		2790BBDD207CA82700B5B60A /* xer_support.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = xer_support.h; path = ../../../../shared/asn/xer_support.h; sourceTree = "<group>"; };
+		2790BBDE207CA82700B5B60A /* BIT_STRING.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = BIT_STRING.c; path = ../../../../shared/asn/BIT_STRING.c; sourceTree = "<group>"; };
+		2790BBDF207CA82700B5B60A /* Rectangle.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = Rectangle.c; path = ../../../../shared/asn/Rectangle.c; sourceTree = "<group>"; };
+		2790BBE0207CA82700B5B60A /* xer_encoder.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = xer_encoder.c; path = ../../../../shared/asn/xer_encoder.c; sourceTree = "<group>"; };
+		2790BBE1207CA82700B5B60A /* ber_tlv_length.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ber_tlv_length.c; path = ../../../../shared/asn/ber_tlv_length.c; sourceTree = "<group>"; };
+		2790BBE2207CA82700B5B60A /* NativeEnumerated.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = NativeEnumerated.c; path = ../../../../shared/asn/NativeEnumerated.c; sourceTree = "<group>"; };
 		27BA0166207BDE3B00B6E3FA /* example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27BA0169207BDE3B00B6E3FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		27BA016B207BDE3B00B6E3FA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,52 +73,6 @@
 		27BA0181207BDEC400B6E3FA /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = ../../../shared/main.cpp; sourceTree = "<group>"; };
 		27BA0182207BDEC400B6E3FA /* main.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = main.h; path = ../../../shared/main.h; sourceTree = "<group>"; };
 		27BA0189207BEF8E00B6E3FA /* asn */ = {isa = PBXFileReference; lastKnownFileType = folder; name = asn; path = ../shared/asn; sourceTree = "<group>"; };
-		27BA018C207BF0C600B6E3FA /* ber_tlv_length.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ber_tlv_length.h; path = ../../../../shared/asn/ber_tlv_length.h; sourceTree = "<group>"; };
-		27BA018D207BF0C600B6E3FA /* per_opentype.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = per_opentype.c; path = ../../../../shared/asn/per_opentype.c; sourceTree = "<group>"; };
-		27BA018E207BF0C600B6E3FA /* der_encoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = der_encoder.h; path = ../../../../shared/asn/der_encoder.h; sourceTree = "<group>"; };
-		27BA018F207BF0C600B6E3FA /* per_encoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = per_encoder.h; path = ../../../../shared/asn/per_encoder.h; sourceTree = "<group>"; };
-		27BA0190207BF0C600B6E3FA /* per_opentype.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = per_opentype.h; path = ../../../../shared/asn/per_opentype.h; sourceTree = "<group>"; };
-		27BA0191207BF0C600B6E3FA /* constr_SEQUENCE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = constr_SEQUENCE.h; path = ../../../../shared/asn/constr_SEQUENCE.h; sourceTree = "<group>"; };
-		27BA0192207BF0C600B6E3FA /* constr_TYPE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = constr_TYPE.h; path = ../../../../shared/asn/constr_TYPE.h; sourceTree = "<group>"; };
-		27BA0193207BF0C600B6E3FA /* INTEGER.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = INTEGER.c; path = ../../../../shared/asn/INTEGER.c; sourceTree = "<group>"; };
-		27BA0194207BF0C600B6E3FA /* asn_application.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = asn_application.h; path = ../../../../shared/asn/asn_application.h; sourceTree = "<group>"; };
-		27BA0195207BF0C600B6E3FA /* OCTET_STRING.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = OCTET_STRING.c; path = ../../../../shared/asn/OCTET_STRING.c; sourceTree = "<group>"; };
-		27BA0196207BF0C600B6E3FA /* xer_support.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = xer_support.h; path = ../../../../shared/asn/xer_support.h; sourceTree = "<group>"; };
-		27BA0197207BF0C600B6E3FA /* asn_internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = asn_internal.h; path = ../../../../shared/asn/asn_internal.h; sourceTree = "<group>"; };
-		27BA0198207BF0C600B6E3FA /* NativeEnumerated.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NativeEnumerated.h; path = ../../../../shared/asn/NativeEnumerated.h; sourceTree = "<group>"; };
-		27BA0199207BF0C600B6E3FA /* BIT_STRING.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = BIT_STRING.c; path = ../../../../shared/asn/BIT_STRING.c; sourceTree = "<group>"; };
-		27BA019A207BF0C600B6E3FA /* INTEGER.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = INTEGER.h; path = ../../../../shared/asn/INTEGER.h; sourceTree = "<group>"; };
-		27BA019B207BF0C600B6E3FA /* per_encoder.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = per_encoder.c; path = ../../../../shared/asn/per_encoder.c; sourceTree = "<group>"; };
-		27BA019C207BF0C600B6E3FA /* xer_encoder.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = xer_encoder.c; path = ../../../../shared/asn/xer_encoder.c; sourceTree = "<group>"; };
-		27BA019D207BF0C600B6E3FA /* constraints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = constraints.h; path = ../../../../shared/asn/constraints.h; sourceTree = "<group>"; };
-		27BA019E207BF0C600B6E3FA /* NativeEnumerated.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = NativeEnumerated.c; path = ../../../../shared/asn/NativeEnumerated.c; sourceTree = "<group>"; };
-		27BA019F207BF0C600B6E3FA /* NativeInteger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NativeInteger.h; path = ../../../../shared/asn/NativeInteger.h; sourceTree = "<group>"; };
-		27BA01A0207BF0C600B6E3FA /* asn_system.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = asn_system.h; path = ../../../../shared/asn/asn_system.h; sourceTree = "<group>"; };
-		27BA01A1207BF0C600B6E3FA /* constr_TYPE.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = constr_TYPE.c; path = ../../../../shared/asn/constr_TYPE.c; sourceTree = "<group>"; };
-		27BA01A2207BF0C600B6E3FA /* xer_support.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = xer_support.c; path = ../../../../shared/asn/xer_support.c; sourceTree = "<group>"; };
-		27BA01A3207BF0C600B6E3FA /* BIT_STRING.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BIT_STRING.h; path = ../../../../shared/asn/BIT_STRING.h; sourceTree = "<group>"; };
-		27BA01A4207BF0C600B6E3FA /* per_support.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = per_support.h; path = ../../../../shared/asn/per_support.h; sourceTree = "<group>"; };
-		27BA01A5207BF0C600B6E3FA /* constr_SEQUENCE.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = constr_SEQUENCE.c; path = ../../../../shared/asn/constr_SEQUENCE.c; sourceTree = "<group>"; };
-		27BA01A6207BF0C600B6E3FA /* asn_codecs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = asn_codecs.h; path = ../../../../shared/asn/asn_codecs.h; sourceTree = "<group>"; };
-		27BA01A7207BF0C600B6E3FA /* asn_codecs_prim.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = asn_codecs_prim.c; path = ../../../../shared/asn/asn_codecs_prim.c; sourceTree = "<group>"; };
-		27BA01A8207BF0C600B6E3FA /* ber_tlv_tag.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ber_tlv_tag.c; path = ../../../../shared/asn/ber_tlv_tag.c; sourceTree = "<group>"; };
-		27BA01A9207BF0C600B6E3FA /* constraints.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = constraints.c; path = ../../../../shared/asn/constraints.c; sourceTree = "<group>"; };
-		27BA01AA207BF0C600B6E3FA /* der_encoder.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = der_encoder.c; path = ../../../../shared/asn/der_encoder.c; sourceTree = "<group>"; };
-		27BA01AB207BF0C600B6E3FA /* NativeInteger.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = NativeInteger.c; path = ../../../../shared/asn/NativeInteger.c; sourceTree = "<group>"; };
-		27BA01AC207BF0C600B6E3FA /* asn_codecs_prim.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = asn_codecs_prim.h; path = ../../../../shared/asn/asn_codecs_prim.h; sourceTree = "<group>"; };
-		27BA01AD207BF0C600B6E3FA /* OCTET_STRING.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OCTET_STRING.h; path = ../../../../shared/asn/OCTET_STRING.h; sourceTree = "<group>"; };
-		27BA01AE207BF0C600B6E3FA /* per_decoder.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = per_decoder.c; path = ../../../../shared/asn/per_decoder.c; sourceTree = "<group>"; };
-		27BA01AF207BF0C600B6E3FA /* per_decoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = per_decoder.h; path = ../../../../shared/asn/per_decoder.h; sourceTree = "<group>"; };
-		27BA01B0207BF0C600B6E3FA /* per_support.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = per_support.c; path = ../../../../shared/asn/per_support.c; sourceTree = "<group>"; };
-		27BA01B1207BF0C600B6E3FA /* ber_decoder.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ber_decoder.c; path = ../../../../shared/asn/ber_decoder.c; sourceTree = "<group>"; };
-		27BA01B3207BF0C600B6E3FA /* Rectangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Rectangle.h; path = ../../../../shared/asn/Rectangle.h; sourceTree = "<group>"; };
-		27BA01B4207BF0C600B6E3FA /* xer_decoder.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = xer_decoder.c; path = ../../../../shared/asn/xer_decoder.c; sourceTree = "<group>"; };
-		27BA01B5207BF0C600B6E3FA /* xer_decoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = xer_decoder.h; path = ../../../../shared/asn/xer_decoder.h; sourceTree = "<group>"; };
-		27BA01B7207BF0C600B6E3FA /* Rectangle.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = Rectangle.c; path = ../../../../shared/asn/Rectangle.c; sourceTree = "<group>"; };
-		27BA01B8207BF0C600B6E3FA /* ber_decoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ber_decoder.h; path = ../../../../shared/asn/ber_decoder.h; sourceTree = "<group>"; };
-		27BA01B9207BF0C600B6E3FA /* ber_tlv_length.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ber_tlv_length.c; path = ../../../../shared/asn/ber_tlv_length.c; sourceTree = "<group>"; };
-		27BA01BA207BF0C600B6E3FA /* xer_encoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = xer_encoder.h; path = ../../../../shared/asn/xer_encoder.h; sourceTree = "<group>"; };
-		27BA01BB207BF0C600B6E3FA /* ber_tlv_tag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ber_tlv_tag.h; path = ../../../../shared/asn/ber_tlv_tag.h; sourceTree = "<group>"; };
 		27BA01D3207BFF3C00B6E3FA /* ISO-18013-5.asn1 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "ISO-18013-5.asn1"; path = "../../../shared/ISO-18013-5.asn1"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -109,6 +87,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2790BBCA207CA81D00B5B60A /* asn */ = {
+			isa = PBXGroup;
+			children = (
+				2790BBD0207CA82600B5B60A /* asn_codecs_prim.c */,
+				2790BBD1207CA82600B5B60A /* asn_codecs.h */,
+				2790BBD9207CA82600B5B60A /* ber_decoder.c */,
+				2790BBE1207CA82700B5B60A /* ber_tlv_length.c */,
+				2790BBCF207CA82600B5B60A /* ber_tlv_tag.c */,
+				2790BBDE207CA82700B5B60A /* BIT_STRING.c */,
+				2790BBCE207CA82600B5B60A /* constr_SEQUENCE.c */,
+				2790BBCB207CA82600B5B60A /* constr_TYPE.c */,
+				2790BBD2207CA82600B5B60A /* constraints.c */,
+				2790BBD3207CA82600B5B60A /* der_encoder.c */,
+				2790BBD4207CA82600B5B60A /* INTEGER.c */,
+				2790BBE2207CA82700B5B60A /* NativeEnumerated.c */,
+				2790BBD5207CA82600B5B60A /* NativeInteger.c */,
+				2790BBDA207CA82600B5B60A /* OCTET_STRING.c */,
+				2790BBD6207CA82600B5B60A /* per_decoder.c */,
+				2790BBDC207CA82700B5B60A /* per_encoder.c */,
+				2790BBD7207CA82600B5B60A /* per_encoder.h */,
+				2790BBCD207CA82600B5B60A /* per_opentype.c */,
+				2790BBD8207CA82600B5B60A /* per_support.c */,
+				2790BBDF207CA82700B5B60A /* Rectangle.c */,
+				2790BBDB207CA82600B5B60A /* xer_decoder.c */,
+				2790BBE0207CA82700B5B60A /* xer_encoder.c */,
+				2790BBCC207CA82600B5B60A /* xer_support.c */,
+				2790BBDD207CA82700B5B60A /* xer_support.h */,
+			);
+			path = asn;
+			sourceTree = "<group>";
+		};
 		27BA015D207BDE3B00B6E3FA = {
 			isa = PBXGroup;
 			children = (
@@ -144,7 +153,7 @@
 		27BA0180207BDEBC00B6E3FA /* shared */ = {
 			isa = PBXGroup;
 			children = (
-				27BA018B207BF0BB00B6E3FA /* asn */,
+				2790BBCA207CA81D00B5B60A /* asn */,
 				27BA0181207BDEC400B6E3FA /* main.cpp */,
 				27BA0182207BDEC400B6E3FA /* main.h */,
 				27BA01D3207BFF3C00B6E3FA /* ISO-18013-5.asn1 */,
@@ -158,59 +167,6 @@
 				27BA0189207BEF8E00B6E3FA /* asn */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		27BA018B207BF0BB00B6E3FA /* asn */ = {
-			isa = PBXGroup;
-			children = (
-				27BA0194207BF0C600B6E3FA /* asn_application.h */,
-				27BA01A7207BF0C600B6E3FA /* asn_codecs_prim.c */,
-				27BA01AC207BF0C600B6E3FA /* asn_codecs_prim.h */,
-				27BA01A6207BF0C600B6E3FA /* asn_codecs.h */,
-				27BA0197207BF0C600B6E3FA /* asn_internal.h */,
-				27BA01A0207BF0C600B6E3FA /* asn_system.h */,
-				27BA01B1207BF0C600B6E3FA /* ber_decoder.c */,
-				27BA01B8207BF0C600B6E3FA /* ber_decoder.h */,
-				27BA01B9207BF0C600B6E3FA /* ber_tlv_length.c */,
-				27BA018C207BF0C600B6E3FA /* ber_tlv_length.h */,
-				27BA01A8207BF0C600B6E3FA /* ber_tlv_tag.c */,
-				27BA01BB207BF0C600B6E3FA /* ber_tlv_tag.h */,
-				27BA0199207BF0C600B6E3FA /* BIT_STRING.c */,
-				27BA01A3207BF0C600B6E3FA /* BIT_STRING.h */,
-				27BA01A5207BF0C600B6E3FA /* constr_SEQUENCE.c */,
-				27BA0191207BF0C600B6E3FA /* constr_SEQUENCE.h */,
-				27BA01A1207BF0C600B6E3FA /* constr_TYPE.c */,
-				27BA0192207BF0C600B6E3FA /* constr_TYPE.h */,
-				27BA01A9207BF0C600B6E3FA /* constraints.c */,
-				27BA019D207BF0C600B6E3FA /* constraints.h */,
-				27BA01AA207BF0C600B6E3FA /* der_encoder.c */,
-				27BA018E207BF0C600B6E3FA /* der_encoder.h */,
-				27BA0193207BF0C600B6E3FA /* INTEGER.c */,
-				27BA019A207BF0C600B6E3FA /* INTEGER.h */,
-				27BA019E207BF0C600B6E3FA /* NativeEnumerated.c */,
-				27BA0198207BF0C600B6E3FA /* NativeEnumerated.h */,
-				27BA01AB207BF0C600B6E3FA /* NativeInteger.c */,
-				27BA019F207BF0C600B6E3FA /* NativeInteger.h */,
-				27BA0195207BF0C600B6E3FA /* OCTET_STRING.c */,
-				27BA01AD207BF0C600B6E3FA /* OCTET_STRING.h */,
-				27BA01AE207BF0C600B6E3FA /* per_decoder.c */,
-				27BA01AF207BF0C600B6E3FA /* per_decoder.h */,
-				27BA019B207BF0C600B6E3FA /* per_encoder.c */,
-				27BA018F207BF0C600B6E3FA /* per_encoder.h */,
-				27BA018D207BF0C600B6E3FA /* per_opentype.c */,
-				27BA0190207BF0C600B6E3FA /* per_opentype.h */,
-				27BA01B0207BF0C600B6E3FA /* per_support.c */,
-				27BA01A4207BF0C600B6E3FA /* per_support.h */,
-				27BA01B7207BF0C600B6E3FA /* Rectangle.c */,
-				27BA01B3207BF0C600B6E3FA /* Rectangle.h */,
-				27BA01B4207BF0C600B6E3FA /* xer_decoder.c */,
-				27BA01B5207BF0C600B6E3FA /* xer_decoder.h */,
-				27BA019C207BF0C600B6E3FA /* xer_encoder.c */,
-				27BA01BA207BF0C600B6E3FA /* xer_encoder.h */,
-				27BA01A2207BF0C600B6E3FA /* xer_support.c */,
-				27BA0196207BF0C600B6E3FA /* xer_support.h */,
-			);
-			path = asn;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -286,30 +242,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27BA01CF207BF0C600B6E3FA /* xer_decoder.c in Sources */,
-				27BA01C2207BF0C600B6E3FA /* NativeEnumerated.c in Sources */,
+				2790BBF5207CA82700B5B60A /* xer_encoder.c in Sources */,
+				2790BBE3207CA82700B5B60A /* constr_TYPE.c in Sources */,
 				27BA016C207BDE3B00B6E3FA /* ViewController.swift in Sources */,
-				27BA01BC207BF0C600B6E3FA /* per_opentype.c in Sources */,
-				27BA01BE207BF0C600B6E3FA /* OCTET_STRING.c in Sources */,
+				2790BBF2207CA82700B5B60A /* per_encoder.c in Sources */,
+				2790BBEA207CA82700B5B60A /* der_encoder.c in Sources */,
+				2790BBE9207CA82700B5B60A /* constraints.c in Sources */,
+				2790BBED207CA82700B5B60A /* per_decoder.c in Sources */,
+				2790BBEB207CA82700B5B60A /* INTEGER.c in Sources */,
 				27BA016A207BDE3B00B6E3FA /* AppDelegate.swift in Sources */,
-				27BA01C9207BF0C600B6E3FA /* der_encoder.c in Sources */,
-				27BA01C0207BF0C600B6E3FA /* per_encoder.c in Sources */,
-				27BA01C8207BF0C600B6E3FA /* constraints.c in Sources */,
-				27BA01C1207BF0C600B6E3FA /* xer_encoder.c in Sources */,
-				27BA01CA207BF0C600B6E3FA /* NativeInteger.c in Sources */,
-				27BA01C7207BF0C600B6E3FA /* ber_tlv_tag.c in Sources */,
-				27BA01C3207BF0C600B6E3FA /* constr_TYPE.c in Sources */,
-				27BA01BF207BF0C600B6E3FA /* BIT_STRING.c in Sources */,
-				27BA01CD207BF0C600B6E3FA /* ber_decoder.c in Sources */,
-				27BA01CC207BF0C600B6E3FA /* per_support.c in Sources */,
-				27BA01C4207BF0C600B6E3FA /* xer_support.c in Sources */,
-				27BA01D1207BF0C600B6E3FA /* Rectangle.c in Sources */,
-				27BA01BD207BF0C600B6E3FA /* INTEGER.c in Sources */,
+				2790BBF0207CA82700B5B60A /* OCTET_STRING.c in Sources */,
+				2790BBEC207CA82700B5B60A /* NativeInteger.c in Sources */,
+				2790BBF3207CA82700B5B60A /* BIT_STRING.c in Sources */,
+				2790BBE8207CA82700B5B60A /* asn_codecs_prim.c in Sources */,
+				2790BBE6207CA82700B5B60A /* constr_SEQUENCE.c in Sources */,
 				27BA0183207BDEC400B6E3FA /* main.cpp in Sources */,
-				27BA01C5207BF0C600B6E3FA /* constr_SEQUENCE.c in Sources */,
-				27BA01CB207BF0C600B6E3FA /* per_decoder.c in Sources */,
-				27BA01C6207BF0C600B6E3FA /* asn_codecs_prim.c in Sources */,
-				27BA01D2207BF0C600B6E3FA /* ber_tlv_length.c in Sources */,
+				2790BBF4207CA82700B5B60A /* Rectangle.c in Sources */,
+				2790BBE4207CA82700B5B60A /* xer_support.c in Sources */,
+				2790BBEF207CA82700B5B60A /* ber_decoder.c in Sources */,
+				2790BBF1207CA82700B5B60A /* xer_decoder.c in Sources */,
+				2790BBE5207CA82700B5B60A /* per_opentype.c in Sources */,
+				2790BBF7207CA82700B5B60A /* NativeEnumerated.c in Sources */,
+				2790BBF6207CA82700B5B60A /* ber_tlv_length.c in Sources */,
+				2790BBEE207CA82700B5B60A /* per_support.c in Sources */,
+				2790BBE7207CA82700B5B60A /* ber_tlv_tag.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -455,11 +411,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../shared/asn/";
 				INFOPLIST_FILE = example/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/../shared/asn/";
 				PRODUCT_BUNDLE_IDENTIFIER = com.iMunro.example;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "example/example-Bridging-Header.h";
@@ -475,11 +433,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../shared/asn/";
 				INFOPLIST_FILE = example/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/../shared/asn/";
 				PRODUCT_BUNDLE_IDENTIFIER = com.iMunro.example;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "example/example-Bridging-Header.h";

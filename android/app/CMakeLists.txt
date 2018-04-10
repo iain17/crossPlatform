@@ -5,6 +5,22 @@
 
 cmake_minimum_required(VERSION 3.4.1)
 
+include_directories(../../shared/asn/)
+file(GLOB ASN_C_FILES
+    "../../shared/asn/*.c"
+)
+
+MESSAGE( STATUS "COOL:         " ${ASN_CPP_FILES} )
+
+add_library( # Sets the name of the library.
+             asn
+
+             # Sets the library as a shared library.
+             SHARED
+
+             # Provides a relative path to your source file(s).
+             ${ASN_C_FILES})
+
 # Creates and names a library, sets it as either STATIC
 # or SHARED, and provides the relative paths to its source code.
 # You can define multiple libraries, and CMake builds them for you.
@@ -38,6 +54,7 @@ find_library( # Sets the name of the path variable.
 
 target_link_libraries( # Specifies the target library.
                        shared-lib
+                       asn
 
                        # Links the target library to the log library
                        # included in the NDK.
