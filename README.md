@@ -13,6 +13,7 @@ The more intesting part is the ASN.1 BER/DER TLV encoding and decoding. This pro
 - [JNA](https://github.com/java-native-access/jna) in combination with [NDK](https://developer.android.com/ndk/index.html) - See [examples](https://www.eshayne.com/jnaex/index.html)
 - [ASN1c](https://github.com/vlm/asn1c)
 - Swift
+- Java (Android)
 
 ## Requirements
 
