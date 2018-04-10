@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
             ByteBuffer data = ByteBuffer.allocate(size);
             data.position(0);
             size = Shared.INSTANCE.testEncode(data, size);
-            Log.d("Experiment",byteArrayToHex(data.array()));
+            Log.d("Experiment", byteArrayToHex(data.array()));
 
             Shared.Rectangle rectangle = new Shared.Rectangle();
             Shared.INSTANCE.testDecode(rectangle, data, size);
